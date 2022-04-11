@@ -19,8 +19,8 @@ let students = ['joe', 'sim', 'johnny', 'mark'];
 
 
 // // Activity 4
-let num = () => {
-    let century = Math.ceil(num/100);
+let num = (num) => {
+    let century = Math.ceil((num/100));
     return century
 }
 

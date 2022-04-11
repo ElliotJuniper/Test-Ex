@@ -32,5 +32,5 @@ test('Class should contain 4 students', () => {
 
 // Activity 4
 test('Pull century from year', () => {
-    expect(funcs.num(1705)).toBe(17)
+    expect(funcs.num(1705)).toEqual(18)
 })
